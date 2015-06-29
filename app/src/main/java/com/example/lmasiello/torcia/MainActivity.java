@@ -68,6 +68,7 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
     private void Turn_On_Off_Torch (){
+        /*ciao*/
         if (FlashOn == false){
             //CameraManager cameramng = (CameraManager) getSystemService(this.CAMERA_SERVICE);
             camera = android.hardware.Camera.open();
